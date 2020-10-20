@@ -1,0 +1,12 @@
+{
+  "program": "vla_router.p4",
+  "language": "p4-16",
+  "targets": {
+    "mininet": {
+      "num-hosts": 2, 
+      "switch-config":"ILR_2bytes_addr.config"
+      },
+    "bmv2_log": true,
+    "pcap_dump": true
+    }
+}
