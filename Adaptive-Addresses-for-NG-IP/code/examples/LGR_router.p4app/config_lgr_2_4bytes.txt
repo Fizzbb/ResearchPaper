@@ -1,0 +1,4 @@
+table_add switch_config set_params => 2 2 0xaaaa 4
+table_add ipv8_inner2_lpm fwd 0x0001/16 => 1
+table_add ipv8_inner2_lpm fwd 0x0002/16 => 2
+table_add ipv8_outer4_lpm fwd 0xbbbb0001/32 => 3

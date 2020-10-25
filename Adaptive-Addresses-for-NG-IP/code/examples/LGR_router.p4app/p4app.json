@@ -1,0 +1,16 @@
+{
+  "program": "vla_router.p4",
+  "language": "p4-16",
+  "targets": {
+    "multiswitch": {
+      "auto-control-plane": true,
+      "cli": true,
+      "links": [["s1","h1"],["s1","h2"],["s1","h3"]], 
+      "switches":{
+          "s1": {"commands":["config_lgr_2_4bytes.txt"]}
+      },
+      "bmv2_log": true,
+      "pcap_dump": true
+    }
+  }
+}
