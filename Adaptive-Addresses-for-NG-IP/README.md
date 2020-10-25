@@ -37,9 +37,13 @@ it, and prototype the routers within and on the edge of an
 IPvn domain. We open source the project to encourage further
 investigation and development.
 
-![Hierarchical network and address example. LGR stands for Level
+<img src="https://github.com/Fizzbb/ResearchPaper/blob/master/Adaptive-Addresses-for-NG-IP/images/fig1.png" width="500" height="400">
+Fig 1. Hierarchical network and address example. LGR stands for Level
 Gateway Router; ILR stands for Intra Level Router; IPT stands for IP
 Translator Router. All entity addresses are labeled in hexadecimal. Each
 gateway router is labeled with a super-net prefix for the network under it.
 For a prefix, before the slash is the prefix value in hexadecimal and after it
-is the prefix length in decimal](/images/fig1.png)
+is the prefix length in decimal
+
+<img src="https://github.com/Fizzbb/ResearchPaper/blob/master/Adaptive-Addresses-for-NG-IP/images/fig2.png" width="200" height="150">
+Fig. 2. A possible layout of address related fields in IPvn header.
