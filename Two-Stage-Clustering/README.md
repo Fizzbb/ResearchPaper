@@ -6,8 +6,8 @@ The increasing complexity and high cost of integrated systems has placed immense
 
 <img src="https://github.com/Fizzbb/ResearchPaper/blob/master/Two-Stage-Clustering/images/flow.png" width="600" height="400">
 Fig 1. Decision Tree + Frequent Pattern Mining, Two-stage clustering automatically extracts patterns from different failures.
-
+<br/><br/>
 
 **Takeaways**
 
-Label is not necessary for classification. Clustered syndromes can represent different classes. The goal is not to identify the name of the class, but to identify the class. 
+Label is not necessary for classification. Clustered syndromes can represent different classes. The goal is not to identify the name of the class, but to identify the class/cluster. 
